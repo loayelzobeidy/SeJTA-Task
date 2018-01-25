@@ -1,0 +1,29 @@
+{
+  "name": "se-task",
+  "version": "1.0.0",
+  "description": "It is a task to choose the junior teaching assistant for the course",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "firebase-admin": "^5.8.1",
+    "fsevents": "^1.1.3",
+    "geolib": "^2.0.24",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.0.1",
+    "random-number": "^0.0.9",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "loay elzobaidy",
+  "license": "ISC"
+}
